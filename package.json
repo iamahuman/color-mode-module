@@ -38,7 +38,7 @@
     "@nuxtjs/svg": "^0.1.12",
     "babel-eslint": "latest",
     "babel-jest": "^27.0.2",
-    "eslint": "^7.21.0",
+    "eslint": "^8.0.1",
     "husky": "latest",
     "jest": "^27.0.4",
     "nuxt": "^2.15.3",
