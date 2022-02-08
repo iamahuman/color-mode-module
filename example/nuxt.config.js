@@ -8,6 +8,12 @@ export default {
   ],
   buildModules: [
     '@nuxtjs/svg',
-    colorModeModule
+    [colorModeModule, {
+      themeColors: {
+        dark: '#091a28',
+        light: '#f3f5f4',
+        sepia: '#f1e7d0'
+      }
+    }]
   ]
 }
