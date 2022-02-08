@@ -1,8 +1,8 @@
 {
-  "name": "@nuxtjs/color-mode",
-  "version": "2.1.1",
+  "name": "color-mode-with-theme-color",
+  "version": "2.1.1-x3",
   "description": "Dark and Light mode for NuxtJS with auto detection",
-  "repository": "nuxt-community/color-mode-module",
+  "repository": "iamahuman/color-mode-module",
   "license": "MIT",
   "contributors": [
     {
@@ -19,7 +19,6 @@
     "dev": "nuxt example",
     "build": "rollup -c",
     "lint": "eslint --ext .js,.vue .",
-    "prepublish": "yarn build",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
     "test": "yarn lint && jest"
   },
