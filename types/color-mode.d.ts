@@ -32,7 +32,11 @@ export interface ColorModeOptions {
   /**
    * Default: 'nuxt-color-mode'
    */
-  storageKey: string
+  storageKey: string,
+  /**
+   * Default: null
+   */
+  themeColors: Record<string, string> | null
 }
 
 export interface ColorModeInstance extends Vue {
